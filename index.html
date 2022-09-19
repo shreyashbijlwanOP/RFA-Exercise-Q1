@@ -153,9 +153,11 @@
         else{
       
              alert('submited SucessFully redirect to same page')
-         return  setTimeout(()=>{
-    return true
-},2000)
+             return setTimeout(()=>{
+                location.reload()
+                return true
+            },1000)
+        }
         }
     }
 </script>
